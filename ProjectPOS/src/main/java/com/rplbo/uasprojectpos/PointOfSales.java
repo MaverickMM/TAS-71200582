@@ -33,7 +33,7 @@ public class PointOfSales {
             i.getKey().setStok(i.getKey().getStok() - i.getValue());
 
         }
-
+        System.out.println("-----Transaksi sukses!-----");
         System.out.println("Total Tagihan: Rp "+harga_barang);
         System.out.println("Total Bayar: Rp "+nominal);
         System.out.println("Total Kembalian: Rp "+(nominal - harga_barang));
