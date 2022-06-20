@@ -78,7 +78,12 @@ public class Main
                     }
                     break;
                 case 4:
+                    if(monster_namaKamu.size() <=0){
+                        System.out.println("Ups! Kamu belum memiliki monster");
+
+                    }else{
                     tampilkanMonsterSaya();
+                    }
                     break;
                 default:
                     System.out.println("Terima kasih, " + nama + ", semoga harimu menyenangkan!");
